@@ -1,11 +1,71 @@
 div {
-  /* border: 1px solid rgb(65, 209, 197);
-  width: fit-content; */
+  border: black 1px solid;
+  position: absolute;
   padding: 1%;
-  display: flex;
+  margin-left: 35%;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
+a {
+  margin-left: 34%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 3%;
+  /* background-color: cyan; */
+  font-size: 30px;
+}
+
+h1 {
+  margin: 3%;
+  font-size: 60px;
+}
+
+.par {
+  border: 1px solid black;
+  font-size: 30px;
+  width: 460px;
+  background-color: aqua;
+  position: absolute;
+  margin-left: 9%;
+  margin-top: -3%;
+}
+
+.parcours {
+  position: absolute;
+  /* margin: ; */
+  margin-top: 5%;
+  padding: 3%;
+}
+
+.parcoursh {
+  margin-top: -1%;
+  font-size: 40px;
+}
+
+.divulgations {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 33.5%;
+}
+
+.consequences {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 33%;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 4000% 4000%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
